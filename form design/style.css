@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0 20px;
+    height: 100vh;
+    background-image: url(./img/img\ dd.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 400px;
+    height: auto;
+    background-color:white;
+    padding:30px;
+}
+form h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(19, 100, 133);
+}
+form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px ;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 1.5px solid rgb(36, 192, 111);
+}
+form input::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+form input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+form label {
+    cursor: pointer;
+}
+form input[type="submit"] {
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(114,235,163,1) 0%, rgba(15,165,174,1) 50%, rgba(7,84,100,1) 100%);
+    height:auto ;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    border-radius:30px;
+    padding: 10px;
+}
+form p{
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+
+}
+form p a{
+    text-decoration: none;
+    color: #0fa6d0;
+}
+
+
+/* footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+} */

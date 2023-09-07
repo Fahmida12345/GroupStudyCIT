@@ -1,0 +1,23 @@
+body{
+    background-color: #ecd0d0;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 30px;
+    
+}
+
+form{
+    width: 90%;
+    height: auto;
+    background-color:white;
+    padding:30px;
+    background-color: #EEEEEE;
+}
+form input{
+    background-color: #EAEFFB;
+    border: none;
+    outline: none;
+    border-bottom: #29e768;
+}

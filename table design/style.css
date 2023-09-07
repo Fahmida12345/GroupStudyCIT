@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: #1228d3;
+}
+table, td{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid rgb(14, 8, 8);
+    border-collapse: collapse; 
+
+}
+th{
+    color: white;
+    background-color: green;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+table.two{
+   margin-top: 20px;
+   background-color: rgb(0, 170, 255);
+}
+.two th{
+    background-color: rgb(245, 104, 104);
+    color: white;
+    /* border: 2px solid white; */
+}
+.two tr:nth-child(even){
+    background-color: #0feb0c;
+
+}

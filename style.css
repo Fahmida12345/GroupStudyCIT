@@ -1,0 +1,82 @@
+div.main{
+    background-color: rgb(235, 210, 17);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 20px;
+    width: 100%;
+
+}
+.card{
+    background-color: rgb(156, 156, 241);
+    /* border-radius: 30px; */
+    height: 250px;
+    margin: 15px;
+    width: 20%;
+
+}
+h1{
+    text-align: center;
+    color: brown;
+
+}
+p{
+    color:white;
+    height: 10px;
+    padding:20px 0 20px 15px;
+
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: antiquewhite;
+    background-color: black;
+    transition: 1s;
+}
+button:hover{
+    cursor: grab;
+    color: rgb(204, 204, 221);
+    background-color: rgb(220, 13, 13);
+
+}
+.allbox{
+    color: blue;
+    height: 500px;
+    width:500px ;
+    position: relative;
+    background-color: rgb(234, 165, 165);
+}
+.box1{
+    background-color: green;
+    height:50px;
+    width:50px ;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.box2{
+    background-color: rgb(241, 222, 13);
+    height:50px;
+    width:50px ;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.box3{
+    background-color: rgb(236, 7, 7);
+    height:50px;
+    width:50px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box4{  top:0;
+    left: 0;
+    background-color: black;
+    width: 50px ;
+    height: 50px;
+    position: absolute;
+}
